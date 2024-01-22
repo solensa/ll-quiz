@@ -78,7 +78,9 @@ button {
   max-width: 500px;
   text-align: left;
 }
-
+.buttons {
+  width: calc(100vw - 15px);
+}
 .buttons button:first-child {
   border-radius: 6px 6px 0 0;
 }
